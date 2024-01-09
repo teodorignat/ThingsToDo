@@ -1,0 +1,122 @@
+.form-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 350px;
+    height: 55%;
+    padding: 2em;
+    border:2px solid var(--darkColor);
+    border-radius: 1.5em;
+    background-color: var(--lightColor);
+    box-shadow: 0px 10px 25px var(--mediumDarkColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--darkColor);
+    gap: 2em;
+}
+
+.form-header {
+    font-size: 1.5em;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header img {
+    width: 30%;
+}
+
+.form-content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.input-box {
+    box-sizing: border-box;
+    position: relative;
+    padding-left: .8em;
+    width: 100%;   
+    display: flex;
+    border-bottom: 2px solid var(--inputBorderColor);
+    justify-content: center;
+    align-items: center;
+}
+
+#uname, #psw, #fname {
+    font-size: 1em;
+    width: 90%;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    overflow: visible;
+}
+
+#uname:focus, #psw:focus, #fname:focus {
+    color: #2C2E3E;
+    outline: none;
+}
+
+.input-box label {
+    font-size: 1.2em;
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    z-index: 1;
+    transition: all .1s ease-in; 
+}
+
+.input-box img {
+    width: 25px;
+    opacity: .5;
+}
+
+input:focus + label, label.filled {
+    left: 0;
+    top: -18px;
+    scale: 0.8;
+    transition: all .1s ease-in; 
+}
+
+.psw strong {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.psw strong:hover {
+    color: #EE2B47; 
+}
+
+.login-btn {
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 80%; 
+    padding: .5em;
+    cursor: pointer;
+    border-radius: 5em;
+    background: linear-gradient(-45deg, #b81b32e6, #2C2E3E, #2C2E3E, #b81b32e6);
+    background-size: 200%;
+    background-position: left;
+    color: #F6F6F6;
+    transition: .2s ease-out;
+}
+
+.login-btn:hover {
+    scale: 1.1;
+    background-position: right;
+    transition: .2s ease-in;
+}
+

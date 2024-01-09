@@ -1,0 +1,39 @@
+.task-list {
+    box-sizing: border-box;
+    width: 100%;
+    height: 99%;
+    margin: 0;
+    padding: .3em 0;
+    /* border: 1px solid #fff; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5em;
+    overflow: auto;
+}
+
+.task-list::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.task-list::-webkit-scrollbar:vertical {
+    width: 15px;
+}
+
+.task-list::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+.task-list::-webkit-scrollbar-thumb {
+    background-color: var(--darkColor2);
+    border-radius: 10px;
+    border: 1px solid var(--lightColor2);
+}
+
+.task-list::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: var(--darkColor2);
+    scroll-margin-right: 10px;
+}

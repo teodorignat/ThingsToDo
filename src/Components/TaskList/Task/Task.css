@@ -1,0 +1,184 @@
+.task {
+    box-sizing: border-box;
+    width: 98%;
+    border: 2px solid var(--darkColor2);
+    background-color: var(--lightColor);
+    box-shadow: 0px 5px 6px var(--darkColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 .5em;
+    padding-right: 0;
+    background-color: rgba(196, 203, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1em; */
+}
+
+.completed {
+    background-color: rgba(65, 161, 46, 0.2);
+}
+
+.inProgress {
+    background-color: rgba(211, 161, 55, 0.2);
+}
+
+.completed .task-title h1 {
+    text-decoration: line-through;
+}
+
+.task-title {
+    width: 100%;
+    display: flex;
+    gap: .5em;
+}
+
+.task-title img {
+    width: 30px;
+    
+}
+
+.task-title h1 {
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: var(--darkColor);
+}
+
+.task-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box {
+    box-sizing: border-box;
+    width: 130px;
+    height: 100%;
+    padding: .35em 1.5em;
+    border: 1px solid var(--darkColor2);
+    /* border-radius: 5px; */
+    background-color: var(--darkColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box p {
+    font-size: .7em;
+    text-align: center;
+    margin: 0;
+    color: var(--lightColor);
+}
+
+.delete-btn {
+    box-sizing: border-box;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    border-left: 1px solid var(--darkColor2);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-btn img {
+    width: 20px;
+    
+}
+
+.delete-btn:hover {
+    background-color: rgba(245, 143, 158, 0.6);
+}
+
+.task-content {
+    width: 100%;
+    margin: 1em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.task-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.task-body button {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.task-body button:hover {
+    scale: 1.5;
+    transition: .2s ease;
+}
+
+.prev-status-btn img {
+    width: 30px;
+    transform: rotate(180deg);
+}
+
+.next-status-btn img {
+    width: 30px;
+}
+
+.task-description {
+    box-sizing: border-box;
+    width: 90%;
+    margin-bottom: 1em;
+    padding: 0 .5em;
+    border-bottom: 2px solid var(--darkColor2);
+    border-left: 2px solid var(--darkColor2);
+    border-bottom-left-radius: 15px;
+    transition: all .2s ease;
+} 
+
+.task-description p {
+    width: 100%;
+    font-size: 1em;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.complete-btn {
+    width: 100%;
+    padding: .5em 0;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(65, 161, 46, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease;
+}
+
+.complete-btn p {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.complete-btn:hover {
+    background-color: rgba(65, 161, 46, 0.5);
+    box-shadow: 0px 2px 6px var(--darkColor);
+    transition: .2s ease;
+}
