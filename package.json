@@ -1,8 +1,7 @@
 {
   "name": "thingstodo",
   "version": "0.1.0",
-  // "homepage": "https://teodorignat.github.io/ThingsToDo",
-  "homepage": "https://thingstodo-zx57.onrender.com/",
+  "homepage": "https://teodorignat.github.io/ThingsToDo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
