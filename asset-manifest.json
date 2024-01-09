@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ThingsToDo/static/css/main.ba0696b9.css",
+    "main.js": "/ThingsToDo/static/js/main.8c10d3e6.js",
+    "static/js/787.4a24272b.chunk.js": "/ThingsToDo/static/js/787.4a24272b.chunk.js",
+    "static/media/appbg.jpg": "/ThingsToDo/static/media/appbg.4684de0b228219b0bc2e.jpg",
+    "static/media/iconUser.png": "/ThingsToDo/static/media/iconUser.c920752422c11377083e.png",
+    "static/media/logo2.png": "/ThingsToDo/static/media/logo2.d95262db2497fe02df34.png",
+    "static/media/pswicon.png": "/ThingsToDo/static/media/pswicon.9082bdd67b064c1a570b.png",
+    "static/media/settings-icon.svg": "/ThingsToDo/static/media/settings-icon.225bded8da77d3b2c1f29676c75c0ae7.svg",
+    "static/media/pending-icon.svg": "/ThingsToDo/static/media/pending-icon.b254794a278b8ea75ed3880a2917e5cb.svg",
+    "static/media/addtaskmodal-icon.svg": "/ThingsToDo/static/media/addtaskmodal-icon.bdfec73656f33a547d6665d42d4eeedf.svg",
+    "static/media/tasks-icon.svg": "/ThingsToDo/static/media/tasks-icon.d01ebe05552814708d4fd091441b92cc.svg",
+    "static/media/inProgress-icon.svg": "/ThingsToDo/static/media/inProgress-icon.2c66cd06406dc71b07b527efc5171b74.svg",
+    "static/media/home-icon.svg": "/ThingsToDo/static/media/home-icon.188426c93a24257e0561bf829f70af77.svg",
+    "static/media/signout-icon.svg": "/ThingsToDo/static/media/signout-icon.5f78728288a9130308fc97da6c7c89bf.svg",
+    "index.html": "/ThingsToDo/index.html",
+    "static/media/delete-icon.svg": "/ThingsToDo/static/media/delete-icon.8d1b533e96497b798ed91e946b790c4a.svg",
+    "static/media/arrows-icon.svg": "/ThingsToDo/static/media/arrows-icon.446eceb620aee3579c201a91c30f8c02.svg",
+    "static/media/refreshquote-icon.svg": "/ThingsToDo/static/media/refreshquote-icon.a62b535f92561653856511ff1fe9387f.svg",
+    "static/media/completed-icon.svg": "/ThingsToDo/static/media/completed-icon.fc366a4ec34d152d2f857784cd3ce108.svg",
+    "main.ba0696b9.css.map": "/ThingsToDo/static/css/main.ba0696b9.css.map",
+    "main.8c10d3e6.js.map": "/ThingsToDo/static/js/main.8c10d3e6.js.map",
+    "787.4a24272b.chunk.js.map": "/ThingsToDo/static/js/787.4a24272b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba0696b9.css",
+    "static/js/main.8c10d3e6.js"
+  ]
+}
